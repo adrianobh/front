@@ -1,0 +1,15 @@
+.spanNav {
+  font-size: 15px;
+}
+.icon {
+  margin-right: 8px;
+}
+.center {
+  color: black;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+.center:hover {
+  color: #008000 !important;
+}
