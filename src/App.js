@@ -13,6 +13,7 @@ import { Row, Col, Container } from "react-bootstrap";
 
 library.add(fab, faCheckSquare, faCoffee, faBox);
 function App() {
+  console.log('chamou')
   return (
     <div className="App">
       <Container fluid>
