@@ -18,6 +18,7 @@ const Login = () => {
 
   async function onSubmit(data) {
     const response = await findUser(data);
+    console.log(response);
     if (response && response.data) {
       dispatch(logoutAction());
       dispatch(loginAction(response.data));
